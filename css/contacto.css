@@ -1,0 +1,155 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Laila', sans-serif;
+}
+
+/* ===== HEADER ===== */
+/* Configuración del encabezado: diseño flexible, alineación de elementos, fondo blanco */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+    background-color: #ffffff;
+    border-bottom: 1px solid #ccc;
+    height: 70px;
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+}
+
+header nav {
+    display: flex;
+    justify-content: flex-start; 
+    flex: 1; 
+    margin-left: 80px;
+}
+
+header nav a {
+    margin: 0 20px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+header .actions {
+    display: flex;
+    justify-content: flex-end; 
+}
+
+header .actions button {
+    margin-left: 10px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #7a5a40;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+header .actions button:hover {
+    background-color: #5b422e;
+}
+
+
+main {
+    flex: 1; 
+    padding: 20px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.hero img {
+    width: 100%;
+}
+
+/* ===== FORMULARIO ===== */
+/* Contenedor principal del formulario */
+.container { 
+    background-color: rgba(255, 255, 255, 0.9); 
+    padding: 20px; 
+    max-width: 600px; 
+    width: 100%;
+    border-radius: 10px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+} 
+
+h1 { 
+    text-align: center; 
+    color: black; 
+    margin-bottom: 20px;
+} 
+
+label { 
+    display: block; 
+    margin: 10px 0 5px; 
+    color: #000000; 
+} 
+
+input, textarea { 
+    width: 100%; 
+    padding: 10px; 
+    margin-bottom: 10px; 
+    border: 1px solid #ccc;
+    border-radius: 5px; 
+    box-sizing: border-box;
+} 
+
+input[type="checkbox"] { 
+    width: auto; 
+    margin-right: 5px;
+} 
+
+
+.enviar {
+    margin-top: 10px;
+    width: 100%;
+    padding: 10px 20px;
+    border: none;
+    background-color: #7a5a40;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.enviar:hover {
+    background-color: #5b422e;
+}
+
+/* ===== FOOTER ===== */
+/* Pie de página con fondo negro y texto centrado */
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer .social-icons img {
+    width: 24px;
+    height: 24px;
+    margin: 0 5px;
+}

@@ -1,0 +1,166 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Laila', sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* ===== HEADER ===== */
+/* Configuración del encabezado: diseño flexible, alineación de elementos, fondo blanco */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+    background-color: #ffffff;
+    border-bottom: 1px solid #ccc;
+    height: 70px;
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+}
+
+header nav {
+    display: flex;
+    justify-content: flex-start;
+    flex: 1;
+}
+
+header nav a {
+    margin: 0 20px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+header .actions {
+    display: flex;
+    justify-content: flex-end;
+}
+
+header .actions button {
+    margin-left: 10px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #7a5a40;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+header .actions button:hover {
+    background-color: #5b422e;
+}
+
+/* ===== MAIN (CUERPO) ===== */
+/* Cuerpo principal de la página incluye configuración de hamburguesas favortitas y últimos pedidos*/
+
+main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.profile-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin: 20px auto;
+}
+
+.profile-header img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+.profile-header .user-name {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0 20px;
+    flex-grow: 1;
+    display: flex;
+}
+
+.profile-header .edit-button {
+    background-color: #7a5a40;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.profile-header .edit-button:hover {
+    background-color: #5b422e; 
+}
+
+.favorites {
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+.favorites h2 {
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: black;
+}
+
+.favorites .hamburgers {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.favorites .hamburgers .hamburger {
+    width: 150px;
+    height: 100px;
+    background-color: #e0e0e0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+}
+
+.recent-orders {
+    font-size: 14px;
+    width: 100%;
+}
+
+
+/* ===== FOOTER ===== */
+/* Pie de página con fondo negro y texto centrado */
+
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: auto;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer .social-icons img {
+    width: 24px;
+    height: 24px;
+    margin: 0 5px;
+}

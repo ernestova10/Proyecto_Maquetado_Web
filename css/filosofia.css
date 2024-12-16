@@ -1,0 +1,113 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Laila', sans-serif;
+}
+
+/* ===== HEADER ===== */
+/* Encabezado principal que contiene el logo, navegación y botones */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+    background-color: #ffffff;
+    border-bottom: 1px solid #ccc;
+    height: 70px;
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+}
+
+header nav {
+    display: flex;
+    justify-content: flex-start; 
+    flex: 1; 
+    margin-left: 80px;
+}
+
+header nav a {
+    margin: 0 20px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+header .actions {
+    display: flex;
+    justify-content: flex-end; 
+}
+
+header .actions button {
+    margin-left: 10px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #7a5a40;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+header .actions button:hover {
+    background-color: #5b422e;
+}
+
+
+.hero {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.hero img {
+    width: 100%;
+}
+
+/* ===== HISTORIA ===== */
+/* Sección para mostrar información o historia */
+.historia {
+    text-align: center; 
+    padding: 20px;
+    max-width: 800px; 
+    margin: 0 auto; 
+}
+
+.historia h3 {
+    font-size: 2rem; 
+}
+
+.historia p {
+    font-size: 1.2rem; 
+    line-height: 1.6; 
+    margin: 0 auto;
+    max-width: 700px; 
+}
+
+
+/* ===== FOOTER ===== */
+/* Pie de página con fondo negro y texto centrado */
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer .social-icons img {
+    width: 24px;
+    height: 24px;
+    margin: 0 5px;
+}

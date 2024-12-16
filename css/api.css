@@ -1,0 +1,183 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Laila', sans-serif;
+}
+
+/* ===== HEADER ===== */
+/* Configuración del encabezado: diseño flexible, alineación de elementos, fondo blanco */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+    background-color: #ffffff;
+    border-bottom: 1px solid #ccc;
+    height: 70px;
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+}
+
+header nav {
+    display: flex;
+    justify-content: flex-start; 
+    flex: 1; 
+    margin-left: 80px;
+}
+
+header nav a {
+    margin: 0 20px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+header .acciones {
+    display: flex;
+    justify-content: flex-end; 
+}
+
+header .acciones button {
+    margin-left: 10px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #7a5a40; 
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+header .acciones button:hover {
+    background-color: #5b422e;
+}
+
+main {
+    padding: 20px;
+}
+
+.actualizacion-api {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.actualizacion-api .mensaje-actualizacion {
+    text-align: center;
+}
+
+.boton-suscribir {
+    margin-top: 10px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #7a5a40;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.boton-suscribir:hover {
+    background-color: #5b422e;
+}
+
+.opciones-busqueda {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.titulo {
+    font-weight: bold;
+}
+
+.lista-hamburguesas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.barra-busqueda {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.barra-busqueda input {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.boton-buscar {
+    padding: 10px 20px;
+    border: none;
+    background-color: #7a5a40;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.boton-buscar:hover {
+    background-color: #5b422e;
+}
+
+.items-hamburguesa {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.menu-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 30%;
+    text-align: center;
+}
+
+.menu-item img {
+    width: 250px; 
+    height: 150px; 
+    object-fit: cover; 
+    margin-bottom: 10px;
+}
+
+.menu-item p {
+    font-size: 14px;
+    margin: 0;
+}
+
+/* ===== FOOTER ===== */
+/* Pie de página con fondo negro y texto centrado */
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer .iconos-sociales img {
+    width: 24px;
+    height: 24px;
+    margin: 0 5px;
+}
